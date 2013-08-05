@@ -157,3 +157,7 @@ if has("win32")
     let g:yanktmp_file = TEMP. '/vimyanktmp'
 end
 
+" neocomplcacheを有効化
+let g:neocomplcache_enable_at_startup = 1
+
+
