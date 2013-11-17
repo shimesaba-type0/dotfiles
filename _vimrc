@@ -143,6 +143,7 @@ NeoBundle 'vim-scripts/dbext.vim'          "SQL文を叩いて結果を見れる
 NeoBundle 'vim-scripts/The-NERD-tree'
 NeoBundle 'tpope/vim-endwise'
 NeoBundle 'Shougo/unite.vim'
+NeoBundle 'vim-scripts/TwitVim' "twitter client
 
 filetype plugin indent on     " required!
 filetype indent on
