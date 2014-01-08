@@ -144,6 +144,7 @@ NeoBundle 'vim-scripts/The-NERD-tree'
 NeoBundle 'tpope/vim-endwise'
 NeoBundle 'Shougo/unite.vim'
 NeoBundle 'vim-scripts/TwitVim' "twitter client
+NeoBundle 'itchyny/calendar.vim'
 
 filetype plugin indent on     " required!
 filetype indent on
@@ -161,4 +162,5 @@ end
 " neocomplcacheを有効化
 let g:neocomplcache_enable_at_startup = 1
 
-
+" twitvim configuration
+let twitvim_enable_ruby = 1
