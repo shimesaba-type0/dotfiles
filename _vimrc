@@ -85,7 +85,7 @@ inoremap <C-l> <Right>
 inoremap ' ''<left>
 
 " ESCのマップ変更
-inoremap jjj <ESC>
+inoremap jj <ESC>
 
 " tab関連
 set tabstop=4
@@ -128,7 +128,7 @@ NeoBundle 'Shougo/neocomplcache'
 NeoBundle 'Shougo/neosnippet'
 NeoBundle 'jpalardy/vim-slime'
 NeoBundle 'scrooloose/syntastic'
-NeoBundle 'mattn/zencoding-vim'
+"NeoBundle 'mattn/zencoding-vim'
 "NeoBundle 'https://bitbucket.org/kovisoft/slimv'
 NeoBundle 'vim-ruby/vim-ruby'    "ruby用
 NeoBundle 'tpope/vim-surround'    "surround用
@@ -145,6 +145,7 @@ NeoBundle 'tpope/vim-endwise'
 NeoBundle 'Shougo/unite.vim'
 NeoBundle 'vim-scripts/TwitVim' "twitter client
 NeoBundle 'itchyny/calendar.vim'
+NeoBundle 'mattn/emmet-vim'                   " zencodingの後継$
 
 filetype plugin indent on     " required!
 filetype indent on
@@ -164,3 +165,8 @@ let g:neocomplcache_enable_at_startup = 1
 
 " twitvim configuration
 let twitvim_enable_ruby = 1
+
+let g:user_emmet_settings = {
+            \    'lang' : 'ja',
+            \    'indentation' : '  ',
+            \}
