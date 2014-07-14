@@ -98,7 +98,10 @@ au bufNewFile,BufRead *.rb set tabstop=2 shiftwidth=2
 au bufNewFile,BufRead *.yaml set tabstop=2 shiftwidth=2
 au bufNewFile,BufRead *.html set tabstop=4 shiftwidth=4
 
-
+" ファイル指定で開かれた場合はNERDTreeを起動しない
+if !argc()
+    autocmd vimenter * NERDTree|normal gg3j
+endif
 
 " NeoBundleの設定
 set nocompatible               " be iMproved
